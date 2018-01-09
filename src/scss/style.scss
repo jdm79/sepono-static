@@ -36,3 +36,23 @@ body{
   margin: auto;
   border-bottom: 1px #ddd solid;
 }
+
+#properties {
+  .fa {
+    font-size: 25px;
+  }
+
+  .card:hover {
+    background: $primary;
+    color:#fff;
+
+
+    h5 {
+      color: #fff;
+    }
+
+    .fa {
+      color: #fff;
+    }
+  }
+}

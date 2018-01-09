@@ -25,3 +25,14 @@ body {
   width: 50%;
   margin: auto;
   border-bottom: 1px #ddd solid; }
+
+#properties .fa {
+  font-size: 25px; }
+
+#properties .card:hover {
+  background: #3292a6;
+  color: #fff; }
+  #properties .card:hover h5 {
+    color: #fff; }
+  #properties .card:hover .fa {
+    color: #fff; }
