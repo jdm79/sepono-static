@@ -56,3 +56,16 @@ body{
     }
   }
 }
+
+#main-footer {
+  p {
+    font-size: 10px
+  }
+}
+
+@media (max-width: 768px) {
+html, body {
+width: auto !important;
+overflow-x: hidden !important;
+}
+}
