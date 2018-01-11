@@ -5,6 +5,10 @@ body{
   margin-top:105px;
 }
 
+#shoreditch-deck {
+  text-decoration: none;
+}
+
 .navbar{
   box-shadow:2px 2px 5px $primary;
   opacity:0.9;
@@ -62,6 +66,8 @@ body{
     font-size: 10px
   }
 }
+
+
 
 @media (max-width: 768px) {
 html, body {
