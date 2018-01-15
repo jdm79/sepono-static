@@ -1,7 +1,7 @@
 body {
   margin-top: 105px; }
 
-#shoreditch-deck {
+#featured a {
   text-decoration: none; }
 
 .navbar {
@@ -45,6 +45,10 @@ body {
 
 #main-footer p {
   font-size: 10px; }
+
+#copyright a {
+  text-decoration: none;
+  color: white; }
 
 @media (max-width: 768px) {
   html, body {
