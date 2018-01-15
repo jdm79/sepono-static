@@ -59,8 +59,6 @@
             <i class="fa fa-arrow-right"></i>  See our properties
             </a>
           </div>
-
-
         </div>
       </div>
     </div>
@@ -79,7 +77,7 @@
           placeholder="Enter Email">
         </div>
         <div class="col-md-4">
-          <button class="btn btn-primary btn-lg btn-block" onclick="sent()"><i class="fa fa-envelope-open-o"></i>  Subscribe</button>
+          <button class="btn btn-primary btn-lg btn-block" onclick="send()"><i class="fa fa-envelope-open-o"></i>  Subscribe</button>
         </div>
       </div>
     </div>
@@ -98,12 +96,12 @@
             </h1>
           </div>
 
-          <!-- ACCORDIAN -->
-          <div id="accordian" role="tablist">
+          <!-- ACCORDION -->
+          <div id="accordion" role="tablist">
             <div class="card">
               <div class="card-header" id="heading1">
                 <h5 class="mb-0">
-                  <div href="#collapse1" data-target="#collapse1" data-toggle="collapse" data-parent="#accordian">
+                  <div href="#collapse1" data-target="#collapse1" data-toggle="collapse" data-parent="#accordion">
                     <i class="fa fa-arrow-circle-down"></i> Whole apartments to rent
                   </div>
                 </h5>
@@ -120,7 +118,7 @@
             <div class="card">
               <div class="card-header" id="heading2">
                 <h5 class="mb-0">
-                  <div href="#collapse2" data-target="#collapse2" data-toggle="collapse" data-parent="#accordian">
+                  <div href="#collapse2"  data-toggle="collapse" data-parent="#accordion">
                     <i class="fa fa-arrow-circle-down"></i> Rooms in Flatshares
                   </div>
                 </h5>
@@ -137,7 +135,7 @@
             <div class="card">
               <div class="card-header" id="heading3">
                 <h5 class="mb-0">
-                  <div href="#collapse3" data-target="#collapse3" data-toggle="collapse" data-parent="#accordian">
+                  <div href="#collapse3"  data-toggle="collapse" data-parent="#accordion">
                     <i class="fa fa-arrow-circle-down"></i> Information for Landlords
                   </div>
                 </h5>
@@ -376,7 +374,7 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/navbar-fixed.js"></script>
   <script>
-    function sent() {
+    function send() {
       window.alert("We will be creating a newsletter in due course")
     }
   </script>

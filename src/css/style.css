@@ -40,6 +40,9 @@ body {
   #properties .card:hover .fa {
     color: #fff; }
 
+#accordion {
+  cursor: pointer; }
+
 #main-footer p {
   font-size: 10px; }
 
