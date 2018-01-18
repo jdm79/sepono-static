@@ -48,6 +48,10 @@ body {
 
 #copyright a {
   text-decoration: none;
+  text-decoration-color: white;
+  color: white; }
+
+#copyright p {
   color: white; }
 
 @media (max-width: 768px) {

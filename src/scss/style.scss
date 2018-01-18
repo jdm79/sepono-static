@@ -63,6 +63,7 @@ body{
   }
 }
 
+// this is a bug fix for the iPhone issue
 #accordion {
   cursor:pointer;
 }
@@ -76,6 +77,11 @@ body{
 #copyright {
   a {
     text-decoration: none;
+    text-decoration-color: white;
+    color: white;
+  }
+
+  p {
     color: white;
   }
 
