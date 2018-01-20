@@ -43,8 +43,10 @@ body {
 #accordion {
   cursor: pointer; }
 
-#main-footer p {
-  font-size: 10px; }
+#main-footer {
+  height: 200px; }
+  #main-footer p {
+    font-size: 10px; }
 
 #copyright a {
   text-decoration: none;
@@ -57,4 +59,6 @@ body {
 @media (max-width: 768px) {
   html, body {
     width: auto !important;
-    overflow-x: hidden !important; } }
+    overflow-x: hidden !important; }
+  #main-footer {
+    height: auto; } }
