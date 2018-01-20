@@ -43,6 +43,12 @@ body{
   border-bottom: 1px #ddd solid;
 }
 
+.letting-information {
+  ul {
+    text-decoration: none;
+  }
+}
+
 #properties {
   .fa {
     font-size: 25px;
@@ -82,14 +88,10 @@ body{
     text-decoration-color: white;
     color: white;
   }
-
   p {
     color: white;
   }
-
 }
-
-
 
 @media (max-width: 768px) {
 html, body {
@@ -99,5 +101,4 @@ overflow-x: hidden !important;
 #main-footer {
   height: auto
 }
-
 }
