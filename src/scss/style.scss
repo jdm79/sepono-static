@@ -109,6 +109,14 @@ overflow-x: hidden !important;
 #main-footer {
   height: auto
 }
+// this fixes the back button issue. was previously being obscured by the navbar
+// also on the iphone (see media query below)
+#property-list {
+  .mb-1 {
+    margin-top: 50px
+
+  }
+}
 }
 
 @media (max-width: 320px) {
@@ -119,7 +127,6 @@ overflow-x: hidden !important;
 #main-footer {
   height: auto
 }
-
 #property-list {
   .mb-1 {
     margin-top: 50px

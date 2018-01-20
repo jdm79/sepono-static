@@ -68,7 +68,9 @@ body {
     width: auto !important;
     overflow-x: hidden !important; }
   #main-footer {
-    height: auto; } }
+    height: auto; }
+  #property-list .mb-1 {
+    margin-top: 50px; } }
 
 @media (max-width: 320px) {
   html, body {
