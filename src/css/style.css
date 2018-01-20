@@ -43,6 +43,10 @@ body {
   #properties .card:hover .fa {
     color: #fff; }
 
+#listings .card:hover {
+  background: #3292a6;
+  color: #fff; }
+
 #accordion {
   cursor: pointer; }
 

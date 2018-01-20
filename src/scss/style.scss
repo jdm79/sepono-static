@@ -69,6 +69,14 @@ body{
   }
 }
 
+#listings {
+
+  .card:hover {
+    background: $primary;
+    color:#fff;
+}
+}
+
 // this is a bug fix for the iPhone issue
 #accordion {
   cursor:pointer;
