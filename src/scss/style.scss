@@ -11,6 +11,14 @@ body{
   }
 }
 
+.row {
+  #big-icon {
+      font-size: 55px;
+      color: white
+  }
+}
+
+
 .navbar{
   box-shadow:2px 2px 5px $primary;
   opacity:0.9;
@@ -69,6 +77,12 @@ body{
   }
 }
 
+
+
+#property-list .mb-1 {
+    margin-top: 50px;
+  }
+
 #listings {
 
   .card:hover {
@@ -106,6 +120,18 @@ html, body {
 width: auto !important;
 overflow-x: hidden !important;
 }
+
+#showcase {
+  position: relative;
+  background: url("../img/parliament.jpg");
+  min-height: 600px;
+}
+.row {
+  #big-icon {
+      font-size: 60px;
+      color: white
+  }
+}
 #main-footer {
   height: auto
 }
@@ -126,6 +152,20 @@ overflow-x: hidden !important;
 }
 #main-footer {
   height: auto
+}
+
+#showcase {
+  position: relative;
+  background: url("../img/parliament.jpg");
+  min-height: 500px;
+}
+.row {
+  padding: 3px
+
+  #big-icon {
+      font-size: 55px;
+      color: white;
+  }
 }
 #property-list {
   .mb-1 {
