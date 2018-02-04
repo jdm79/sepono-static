@@ -19,6 +19,7 @@ body {
 #showcase {
   position: relative;
   background: url("../img/parliament.jpg");
+  background-position: center;
   min-height: 600px; }
   #showcase .primary-overlay {
     background: rgba(50, 146, 166, 0.8);
@@ -77,7 +78,8 @@ body {
   #showcase {
     position: relative;
     background: url("../img/parliament.jpg");
-    min-height: 600px; }
+    background-position: center;
+    min-height: 550px; }
   .row #big-icon {
     font-size: 60px;
     color: white; }
@@ -95,6 +97,7 @@ body {
   #showcase {
     position: relative;
     background: url("../img/parliament.jpg");
+    background-position: center;
     min-height: 500px; }
   .row {
     padding: 3px; }
